@@ -1,11 +1,6 @@
 var CACHE_NAME = 'firepad-pwa-firebase';
 var urlsToCache = [
-    '/',
-    'editor',
-    'login',
-    '/update-profile',
-    '/signup',
-    '/forgot-password'
+    '/'
 ];
 // Install a service worker
 self.addEventListener('install', event => {
