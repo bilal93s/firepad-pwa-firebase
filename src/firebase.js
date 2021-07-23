@@ -1,7 +1,8 @@
-import firebase from "firebase/app"
+/*import firebase from "firebase/app"*/
+import * as admin from "firebase-admin";
 import "firebase/auth"
 
-const app = firebase.initializeApp({
+const app = admin.initializeApp({
     apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
     authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
     databaseURL: process.env.REACT_APP_FIREBASE_DATABASE_URL,
